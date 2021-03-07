@@ -61,7 +61,7 @@ window.onload = function() {
     </script>
 
     <script>
-        (function () {
+        function() {
             var canvas = $('#canvas');
 
             if (!canvas[0].getContext) {
@@ -216,7 +216,7 @@ window.onload = function() {
             }));
 
             runAsync().start();
-        })();
+        };
     </script>
     </div>
 </body>
